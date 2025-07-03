@@ -77,43 +77,23 @@ Para poder acceder al panel de administración de Django (/admin), necesitas cre
 El script creará la siguiente estructura de carpetas y archivos:
 
 
-mi_proyecto/
-
-
-├── apps/                 # Directorio para tus aplicaciones de Django
-
-├── media/                # Para archivos subidos por los usuarios
-
-├── static/               # Para archivos estáticos (CSS, JS, imágenes)
-
-├── templates/            # Para las plantillas HTML
-
-├── mi_proyecto/
-
-│   ├── __init__.py
-
-│   ├── asgi.py
-
-│   ├── wsgi.py
-
-│   ├── urls.py
-
-│   └── configuraciones/  # Nueva carpeta para los settings
-
-│       ├── __init__.py
-
-│       ├── settings.py   # Configuración base
-
-│       ├── local.py      # Configuración para desarrollo
-
-│       └── prod.py       # Configuración para producción
-
-├── entorno/              # Entorno virtual de Python
-
-├── .gitignore
-
-├── db.sqlite3            # Base de datos inicial
-
-├── manage.py             # Utilidad de comandos de Django
-
-└── requirements.txt      # Dependencias del proyecto
+    mi_proyecto/
+    ├── apps/                     # Directorio para tus aplicaciones de Django
+    ├── media/                    # Para archivos subidos por los usuarios
+    ├── static/                   # Para archivos estáticos (CSS, JS, imágenes)
+    ├── templates/                # Para las plantillas HTML
+    ├── mi_proyecto/        
+    │   ├── __init__.py    
+    │   ├── asgi.py    
+    │   ├── wsgi.py    
+    │   ├── urls.py    
+    │   └── configuraciones/      # Nueva carpeta para los settings
+    │       ├── __init__.py    
+    │       ├── settings.py       # Configuración base
+    │       ├── local.py          # Configuración para desarrollo
+    │       └── prod.py           # Configuración para producción
+    ├── entorno/                  # Entorno virtual de Python
+    ├── .gitignore        
+    ├── db.sqlite3                # Base de datos inicial
+    ├── manage.py                 # Utilidad de comandos de Django
+    └── requirements.txt          # Dependencias del proyecto
