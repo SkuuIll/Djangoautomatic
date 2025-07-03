@@ -81,6 +81,7 @@ mi_proyecto/
 ├── media/                # Para archivos subidos por los usuarios
 ├── static/               # Para archivos estáticos (CSS, JS, imágenes)
 ├── templates/            # Para las plantillas HTML
+
 ├── mi_proyecto/
 │   ├── __init__.py
 │   ├── asgi.py
